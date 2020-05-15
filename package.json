@@ -1,0 +1,26 @@
+{
+  "name": "11ty-1187",
+  "description": "",
+  "version": "1.0.0",
+  "author": "Peter deHaan <peter@deseloper.com> (https://about.me/peterdehaan)",
+  "bugs": {
+    "url": "https://github.com/pdehaan/11ty-1187/issues"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^0.11.0"
+  },
+  "devDependencies": {},
+  "homepage": "https://github.com/pdehaan/11ty-1187#readme",
+  "keywords": [],
+  "license": "MPL-2.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdehaan/11ty-1187.git"
+  },
+  "scripts": {
+    "build": "eleventy",
+    "serve": "npm run build -- --serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
